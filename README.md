@@ -12,10 +12,10 @@ This repository implements **SARSA (State-Action-Reward-State-Action)**, a class
 SARSA is an **on-policy temporal difference (TD) control method** used to find the optimal Q-value function \( Q(s, a) \) for an agent interacting with an environment.
 
 #### **Update Rule:**
-'''math
+```math
 Q(s_t, a_t) \leftarrow Q(s_t, a_t) + lpha \left[ r_t + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) 
 ight]
-'''
+```
 Where:
 - \( lpha \) is the learning rate
 - \( \gamma \) is the discount factor
