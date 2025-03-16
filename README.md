@@ -14,7 +14,6 @@ SARSA is an **on-policy temporal difference (TD) control method** used to find t
 #### **Update Rule:**
 ```math
 Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left(r_t + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right)
-ight]
 ```
 
 Where:
